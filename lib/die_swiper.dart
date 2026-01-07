@@ -1,5 +1,5 @@
-/// This library is for swiper
-library card_swiper;
+/// Primary library entrypoint for the die_swiper package.
+library die_swiper;
 
 export 'src/flutter_page_indicator/flutter_page_indicator.dart';
 export 'src/swiper.dart';

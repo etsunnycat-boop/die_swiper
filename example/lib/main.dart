@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:card_swiper/card_swiper.dart';
+import 'package:die_swiper/die_swiper.dart';
 import 'package:flutter/material.dart';
 
 import 'src/config.dart';

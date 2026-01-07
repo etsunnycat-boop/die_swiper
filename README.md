@@ -1,15 +1,15 @@
 ![Logo](banner.jpg)
 
 <p align="center">
-    <a href="https://github.com/TheAnkurPanchani/flutter_swiper/pulls">
+    <a href="https://github.com/etsunnycat-boop/die_swiper/pulls">
         <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" alt="PRs Welcome" />
     </a>
-    <a href="https://pub.dev/packages/card_swiper">
-        <img src="https://img.shields.io/pub/v/card_swiper.svg" alt="pub package" />
+    <a href="https://pub.dev/packages/die_swiper">
+        <img src="https://img.shields.io/pub/v/die_swiper.svg" alt="pub package" />
     </a>
 </p>
 
-# card_swiper
+# die_swiper
 
 Swiper/Carousel for flutter, with multiple layouts, infinite loop. Compatible with Android & iOS.
 
@@ -53,7 +53,7 @@ We are using this project [transformer_page_view](https://github.com/best-flutte
 
 ## Changelogs
 
-> see:[CHANGELOG.md](https://github.com/TheAnkurPanchani/flutter_swiper/blob/master/CHANGELOG.md)
+> see:[CHANGELOG.md](https://github.com/etsunnycat-boop/die_swiper/blob/master/CHANGELOG.md)
 
 ## Getting Started
 
@@ -73,7 +73,7 @@ We are using this project [transformer_page_view](https://github.com/best-flutte
 Add
 
 ```bash
-card_swiper : ^3.0.0
+die_swiper : ^3.0.1
 ```
 
 to your `pubspec.yaml`, and run
@@ -89,7 +89,7 @@ OR
 run
 
 ```bash
-flutter pub add card_swiper
+flutter pub add die_swiper
 ```
 
 in your project's root directory.
@@ -108,7 +108,7 @@ Edit lib/main.dart like this:
 
 import 'package:flutter/material.dart';
 
-import 'package:card_swiper/card_swiper.dart';
+import 'package:die_swiper/die_swiper.dart';
 
 void main() => runApp(MyApp());
 

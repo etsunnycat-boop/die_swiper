@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-import '../card_swiper.dart';
+import '../die_swiper.dart';
 
 /// plugin to display swiper components
 ///

@@ -1,7 +1,9 @@
-name: card_swiper
+name: die_swiper
 description: swiper/carousel for flutter, with multiple layouts, infinite loop. Compatible with Android & iOS.
 version: 3.0.1
-homepage: https://github.com/TheAnkurPanchani/flutter_swiper
+homepage: https://github.com/etsunnycat-boop/die_swiper
+repository: https://github.com/etsunnycat-boop/die_swiper
+issue_tracker: https://github.com/etsunnycat-boop/die_swiper/issues
 
 dependencies:
   flutter:
@@ -16,4 +18,3 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-flutter:

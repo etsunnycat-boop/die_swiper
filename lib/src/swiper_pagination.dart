@@ -2,7 +2,7 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 
-import '../card_swiper.dart';
+import '../die_swiper.dart';
 
 class FractionPaginationBuilder extends SwiperPlugin {
   const FractionPaginationBuilder({
