@@ -1,6 +1,4 @@
 package com.example.example
 
-import io.flutter.embedding.android.FlutterActivity
-
-class MainActivity: FlutterActivity() {
-}
+// MainActivity is implemented in Java:
+// android/app/src/main/java/com/example/example/MainActivity.java
