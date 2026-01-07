@@ -19,6 +19,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Security
 
+## [3.0.2] - 2026-01-07
+
+### Changed
+- Rename package to `die_swiper` and update repository metadata
+- Update public import path to `package:die_swiper/die_swiper.dart`
+
 ## [3.0.1] - 2023-07-09
 
 ### Changed
