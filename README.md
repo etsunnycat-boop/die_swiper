@@ -73,7 +73,7 @@ We are using this project [transformer_page_view](https://github.com/best-flutte
 Add
 
 ```bash
-die_swiper : ^3.0.1
+die_swiper : ^3.0.3
 ```
 
 to your `pubspec.yaml`, and run
@@ -255,6 +255,11 @@ The `Controller` is used to control the `index` of the Swiper, start or stop aut
 | void previous({bool animation: true})        | Move to previous                                    |
 | void startAutoplay()                         | Start autoplay                                      |
 | void stopAutoplay()                          | Stop autoplay                                       |
+
+Notes:
+
+- When `Swiper(autoplay: false)`, calling `controller.next()` / `controller.move()` will NOT start (or reset) the internal periodic autoplay timer.
+- If you still want to start autoplay manually while `autoplay: false`, you can call `controller.startAutoplay()`.
 
 #### Autoplay
 

@@ -355,7 +355,7 @@ abstract class _SwiperTimerMixin extends State<Swiper> {
         _stopAutoplay();
       }
     } else if (event is IndexControllerEventBase) {
-      if (event.needToResetTimer) {
+      if (event.needToResetTimer && widget.autoplay) {
         _startAutoplay();
       }
     }
